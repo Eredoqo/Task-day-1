@@ -56,9 +56,9 @@ public class Main {
 
 
         System.out.println("List of spids:");
-        System.out.println("ID: " + spid.getId() + " Status: " + spid.getStatus() + " Description: " + spid.getDescription());
-        System.out.println("ID: " + spid1.getId() + " Status: " + spid1.getStatus() + " Description: " + spid1.getDescription());
-        System.out.println("ID: " + spid2.getId() + " Status: " + spid2.getStatus() + " Description: " + spid2.getDescription());
+        System.out.println("ID: " + spid.getId() + " with status: " + spid.getStatus() + " and escription: " + spid.getDescription());
+        System.out.println("ID: " + spid1.getId() + " with status: " + spid1.getStatus() + " and escription: "+ spid1.getDescription());
+        System.out.println("ID: " + spid2.getId() + " with status: " + spid2.getStatus() + " and escription: " + spid2.getDescription());
 
 
         System.out.println("List of spids connected to a user:");
